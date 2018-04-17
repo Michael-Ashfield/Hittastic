@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Signup to HitTastic</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Sign up</h1>
+	    <form action="signup.php" method="post" autocomplete="off">
+	        <p>
+	            <label>Username</label>
+	            <input type="text" name="username" placeholder="Enter username" maxlength="32" autocomplete="off" required />
+			</p>
+			<p>
+	            <label>Password</label>
+	            <input type="password" name="password" maxlength="32" autocomplete="off" required />
+			</p>
+			<p>
+	            <label>Name</label>
+	            <input type="text" name="name" placeholder="Enter name" maxlength="32" autocomplete="off" required />
+			</p>
+			<p>
+	            <label>Date of birth (DD/MM/YYYY)</label>
+	            <input type="number" name="day" placeholder="DD" min="1" max="31" maxlength="2" size="2" required />
+	            <input type="number" name="month" placeholder="MM" min="1" max="12" maxlength="2" size="2" required />
+	            <input type="number" name="year" placeholder="YYYY" min="1900" max="2100" maxlength="4" size="4" required />
+			</p>
+			<p>
+	            <input type="submit" value="Search" />
+	        </p>
+	    </form>
+	    <p><a href='index.php'>Return home</a></p>
+	</body>
+</html>
+
+
+
+
+

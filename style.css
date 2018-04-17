@@ -1,0 +1,68 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Segoe UI,Helvetica Neue,Arial,sans-serif; 
+}
+
+a {
+    color: #ffffff;
+	text-shadow: none;
+	transition-property: text-shadow;
+	-webkit-transition: 0.8s; /* Safari */
+    transition: 0.8s;
+}
+
+a:hover {
+	text-shadow: 0 0 6px #FFFFFF;
+	transition-property: text-shadow;
+	-webkit-transition: 0.8s; /* Safari */
+    transition: 0.8s;
+}
+
+input{
+	margin: 5px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #ff2828;
+    background-color: #190505;
+    border: 2px dotted #ff2828;
+	transition-property: backgrounnd-color, border, border-radius;
+	-webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #ff2828;
+    background-color: #4f1010;
+    border: 2px solid #ff2828;
+	transition-property: backgrounnd-color, border, border-radius;
+	-webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
+
+input[type=button] {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #ff2828;
+    background-color: #190505;
+    border: 2px dotted #ff2828;
+	transition-property: backgrounnd-color, border, border-radius;
+	-webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
+
+input[type=button]:hover {
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #ff2828;
+    background-color: #4f1010;
+    border: 2px solid #ff2828;
+	transition-property: backgrounnd-color, border, border-radius;
+	-webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
